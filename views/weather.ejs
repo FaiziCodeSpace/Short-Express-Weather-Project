@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="icon" href="https://png.pngtree.com/png-clipart/20250415/original/pngtree-happy-sun-wearing-sunglasses-png-image_20818296.png" type="image/png">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <form action="/fetchTemp" method="POST" class="weather-form">
+        <input type="text" name="city" class="city-input">
+        <button type="submit" class="search-button">Search</button>
+    </form>
+    
+    <div class="output">
+        <img src="<%=imgLink%>" alt="weather/img" class="weather-img">
+        <h1 class="temperature"><%=temp%></h1>
+    </div>
+</body>
+</html>
