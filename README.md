@@ -64,7 +64,7 @@ project-root/
 
 1. Clone the repository
 ```
-git clone https://github.com/YourUsername/weather-app.git
+git clone https://github.com/FaiziCodeSpace/Short-Express-Weather-Project.git
 ```
 2. Navigate into the project
 ```
